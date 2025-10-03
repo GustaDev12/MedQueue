@@ -1,4 +1,4 @@
-import { JobDTO } from "../queus/job.dto"
+import { JobDTO } from "../queues/job.dto"
 
 export interface LogsDTO {
     id: string,

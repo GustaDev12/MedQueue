@@ -2,13 +2,13 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { BullModule } from '@nestjs/bullmq'
-import { QueusModule } from './modules/queus/queus.module';
+import { QueusModule } from './modules/queues/queus.module';
 
 @Module({
   imports: [
     BullModule.forRoot({
       connection: {
-        host: 'localhost',
+        host: 'redis',
         port: 6379
       }
     }),
