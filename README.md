@@ -23,7 +23,6 @@ Service Queue é uma API RESTful desenvolvida com NestJS para gerenciamento de f
 - **Redis**: Banco de dados em memória utilizado pelo BullMQ
 - **TypeScript**: Linguagem de programação tipada que compila para JavaScript
 - **Docker**: Containerização da aplicação e suas dependências
-- **Winston**: Sistema de logging avançado
 
 ## 🛠️ Como Executar Localmente
 
